@@ -7,6 +7,7 @@ def brut2net(brut):
     return brut * (1 - 21.88025/100)
 
 
+st.title("Ma simul nounou avec co-famille")
 # INPUTS
 c1_input, c2_input = st.columns(2)
 option_annee = c1_input.selectbox(
