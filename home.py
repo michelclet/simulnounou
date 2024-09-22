@@ -23,7 +23,7 @@ salaire_net_heure = brut2net(salaire_brut_heure)
 c1_input.text(f"net / heure: {math.ceil(salaire_net_heure * 100)/100} €")
 
 st.write("")
-n_heure_hebdo = c2_input.number_input("Nombre d'heures/semaine pour la nounou", value=48, min_value=0)
+n_heure_hebdo = c2_input.number_input("Nombre d'heures/semaine pour la nounou", value=50, min_value=0)
 
 # part_couple = c4_input.number_input("Répartition dans le couple", value=50, min_value=0, max_value=100)
 # c4_input.text(f"{part_couple}/{100-part_couple}")
