@@ -145,7 +145,7 @@ data = {
 df_heures = pd.DataFrame.from_dict(data, orient='index', columns=columns)
 
 # Summary salaires
-columns = ["Co-Famille 1", "Co-Famille 2", "Auxilaire"]
+columns = ["Co-Famille 1", "Co-Famille 2", "Nounou"]
 data = {
     "Salaire brut (€)": [
         round(salaire_brut_mois, 2),
