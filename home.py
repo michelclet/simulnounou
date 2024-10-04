@@ -247,9 +247,9 @@ data_aides = {
     "Reste à payer après aides": round(cotisations_sociales-aides, 2),
 }
 df_aides = pd.DataFrame.from_dict(data_aides, orient='index', columns=columns)
-st.subheader("Détails des cotisations et aides par co-famille")
+st.subheader("Détails des cotisations et aides pour co-famille 1")
 st.dataframe(df_aides, use_container_width=True)
 
 # Summary dépenses et impots
-st.subheader("Dépenses totales pour Co-famille 1")
+st.subheader("Dépenses totales pour co-famille 1")
 st.dataframe(df_impots, use_container_width=True)
