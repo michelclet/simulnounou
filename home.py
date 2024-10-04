@@ -79,7 +79,7 @@ salaire_net_mois = brut2net(salaire_brut_mois)
 salaire_net_mois_restant = brut2net(salaire_brut_mois_restant)
 
 # Salaire versé
-navigo = 43.20
+navigo = 86.40/2
 exo_cot_heure_sup = 32.45
 salaire_net_mois_verse = salaire_net_mois + navigo + exo_cot_heure_sup
 salaire_net_mois_verse_restant = salaire_net_mois_restant + navigo + exo_cot_heure_sup
@@ -247,7 +247,7 @@ data_aides = {
     "Reste à payer après aides": round(cotisations_sociales-aides, 2),
 }
 df_aides = pd.DataFrame.from_dict(data_aides, orient='index', columns=columns)
-st.subheader("Détails des cotisations et aides")
+st.subheader("Détails des cotisations et aides par co-famille")
 st.dataframe(df_aides, use_container_width=True)
 
 # Summary dépenses et impots
