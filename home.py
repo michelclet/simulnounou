@@ -86,7 +86,7 @@ salaire_net_mois_verse_restant = salaire_net_mois_restant + navigo + exo_cot_heu
 
 
 # Cotisations sociales
-cotisations_sociales = 66/100 * salaire_brut_mois # 921.14
+cotisations_sociales = 942  # 66/100 * salaire_brut_mois # 921.14
 charges = cotisations_sociales
 
 # Aides
