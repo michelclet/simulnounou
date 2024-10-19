@@ -93,7 +93,7 @@ charges = cotisations_sociales
 # Prise en charge CAF des cot.sociales à 50 % plafonnée
 aide_caf = .5 * cotisations_sociales
 # Montant de la déduction forfaitaire
-deduction_forfaitaire = 194.00
+deduction_forfaitaire = 204.00
 # Versement mensuel CMG remunération
 aide_cmg = 200.22
 # Allocation AMGED Asnières versée
