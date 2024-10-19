@@ -80,7 +80,7 @@ salaire_net_mois_restant = brut2net(salaire_brut_mois_restant)
 
 # Salaire versé
 navigo = 86.40/2
-exo_cot_heure_sup = 32.45
+exo_cot_heure_sup = 45.60
 salaire_net_mois_verse = salaire_net_mois + navigo + exo_cot_heure_sup
 salaire_net_mois_verse_restant = salaire_net_mois_restant + navigo + exo_cot_heure_sup
 
