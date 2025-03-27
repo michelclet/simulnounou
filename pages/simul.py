@@ -17,13 +17,13 @@ option_annee = c1_input.selectbox(
 part_garde = c2_input.number_input("Part de garde avec la co-famille (%)", value=50, min_value=0, max_value=100)
 
 c1_input, c2_input = st.columns(2)
-salaire_brut_heure = c1_input.number_input("Salaire brut / heure (€)", value=13.44)
+salaire_brut_heure = c1_input.number_input("Salaire brut / heure (€)", value=12.90)
 salaire_net_heure = brut2net(salaire_brut_heure)
 # salaire_net_heure = math.ceil(salaire_net_heure * 100)/100
 c1_input.text(f"net / heure: {math.ceil(salaire_net_heure * 100)/100} €")
 
 st.write("")
-n_heure_hebdo = c2_input.text_input("Nombre d'heures/semaine pour la nounou", value=50)
+n_heure_hebdo = c2_input.text_input("Nombre d'heures/semaine pour la nounou", value=43.75)
 n_heure_hebdo = float(n_heure_hebdo)
 
 # part_couple = c4_input.number_input("Répartition dans le couple", value=50, min_value=0, max_value=100)
