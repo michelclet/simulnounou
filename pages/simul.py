@@ -12,7 +12,7 @@ st.title("Ma simul nounou avec co-famille")
 c1_input, c2_input = st.columns(2)
 option_annee = c1_input.selectbox(
     ("Année de garde (change le crédit d'impôt)"),
-    ("1ère année", "2ème année ou plus"))
+    ("2ème année ou plus", "1ère année"))
 
 part_garde = c2_input.number_input("Part de garde avec la co-famille (%)", value=50, min_value=0, max_value=100)
 
